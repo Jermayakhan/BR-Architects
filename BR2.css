@@ -1,0 +1,429 @@
+.container{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    
+}
+.br{
+    height: 30px;
+    width: 140px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.br:hover{
+    background-color: lightgray;
+}
+.project{
+
+    height: 30px;
+    width: 90px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 950px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.project:hover{
+    background-color: lightgray;
+}
+
+.about{
+
+    height: 30px;
+    width: 80px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 1050px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.about:hover{
+    background-color: lightgray;
+}
+
+.contact{
+
+    height: 30px;
+    width: 95px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 1140px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.contact:hover{
+    background-color: lightgray;
+}
+.pic{
+    height: 580px;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black; */
+    background-image:url(br14.jpeg);
+    background-size: 100% 100%;
+}
+.br1{
+    height: 50px;
+    width: 70px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    left: 500px;
+    top: 310px;
+}
+.br1>h1>span{
+    position: absolute;
+    margin-top:-13px;
+    margin-left: 13px;
+}
+.br1>h2{
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-top :-13px;
+    font-size: 40px;
+    color: #ffff;
+    letter-spacing: px;
+    /* color: white; */
+
+
+}
+
+
+.heading{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black ; */
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.card{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    background-color: white;
+}
+.card1{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br7.jpeg);
+    background-size: 100% 100%;
+    left: 20px;
+    top: 50px;
+}
+.card2{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br10.jpeg);
+    background-size: 100% 100%;
+    left: 330px;
+    top: 50px;
+}
+.card3{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br5.jpeg);
+    background-size: 100% 100%;
+    left: 640px;
+    top: 50px;
+}
+
+.card4{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br8.jpeg);
+    background-size: 100% 100%;
+    left: 950px;
+    top: 50px;
+}
+
+.card5{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br10.jpeg);
+    background-size: 100% 100%;
+    left: 20px;
+    top: 280px;
+}
+.card6{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br7.jpeg);
+    background-size: 100% 100%;
+    left: 330px;
+    top: 280px;
+}
+.card7{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br8.jpeg);
+    background-size: 100% 100%;
+    left: 640px;
+    top: 280px;
+}
+
+.card8{
+    height: 200px;
+    width: 280px;
+    /* border: 1px solid black; */
+    position: absolute;
+    background-image: url(./br5.jpeg);
+    background-size: 100% 100%;
+    left: 950px;
+    top: 280px;
+}
+.black{
+    height: 30px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: larger;
+}
+.heading2{
+    height: 160px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    font-size: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+.box1{
+    height: 450px;
+    width: 290px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.img1{
+    position: relative;
+    background-image: url(/br1.jpeg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+
+}
+.box2{
+    height: 450px;
+    width: 290px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 325px;
+    top: -430px;
+}
+.img2{
+    position: relative;
+    background-image: url(/br4.jpeg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+
+}
+
+.box3{
+    height: 450px;
+    width: 290px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 630px;
+    top: -880px;
+}
+.img3{
+    position: relative;
+    background-image: url(/br3.jpeg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+
+}
+.box4{
+    height: 450px;
+    width: 290px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 935px;
+    top: -1330px;
+}
+.img4{
+    position: relative;
+    background-image: url(/br12.jpeg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+
+}
+.box5{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* margin-top: 50px; */
+    position: absolute;
+}
+
+.box6{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* margin-top: 50px; */
+    position: absolute;
+}
+.box7{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* margin-top: 50px; */
+    position: absolute;
+}
+.box8{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    /* margin-top: 50px; */
+    position: absolute;
+}
+.contact2{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* letter-spacing: 2px; */
+    background-color: lightgray;
+}
+.ending{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.ending>h2{
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.input{
+    height: 30px;
+    width: 1150px;
+    margin-left: 20px;
+    font-size: large;
+    line-height: 10px;
+}
+.input2{
+    height: 30px;
+    width: 1150px;
+    margin-left: 20px;
+    font-size: large;
+    line-height: 10px;
+    margin-top: 15px;
+}
+.input3{
+    height: 30px;
+    width: 1150px;
+    margin-left: 20px;
+    font-size: large;
+    line-height: 10px;
+    margin-top: 15px;
+}
+.input4{
+    height: 30px;
+    width: 1150px;
+    margin-left: 20px;
+    font-size: large;
+    line-height: 10px;
+    margin-top: 15px;
+
+}
+.ending>button{
+    height:50px ;
+    width:170px; 
+    margin-left:20px;
+    margin-top:15px;
+    font-size: 15px;
+    background-color:black;
+    color:white;    
+}
+
+.ending>button:hover{
+    background-color: gray;
+    border:none;
+    color: black;
+}
+.last{
+    height: 650px;
+    width: 95%;
+    position: relative;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    background-image: url(./br13.jpeg);
+    background-size: 100% 100%;
+}
+.lastbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-left: 550px;
+    padding-top: 30px;
+    color: white;
+}
